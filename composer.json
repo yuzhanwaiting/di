@@ -1,0 +1,14 @@
+{
+  "name" : "yuzhanwaiting/di",
+  "description" : "Provider a di container for every project",
+  "license" : "Apache License 2.0",
+  "require" : {
+    "php" : ">=5.3",
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Di\\" : "src/Di"
+    }
+  },
+  "minimum-stability" : "stable"
+}
